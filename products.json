@@ -1,0 +1,228 @@
+
+[
+  {
+    "id": "P001",
+    "name": "Hydrating Cream",
+    "name_ar": "كريم الترطيب",
+    "category": "Moisturizer",
+    "category_ar": "مرطب",
+    "description": "A sample moisturizer designed to demonstrate how PharmaSmart explains skincare products.",
+    "description_ar": "نموذج لمنتج ترطيب يوضح طريقة PharmaSmart في تبسيط معلومات منتجات العناية بالبشرة.",
+    "image": "images/hydrating-cream.png",
+    "ingredients": [
+      {
+        "name": "Glycerin",
+        "function": "Humectant",
+        "description": "Helps attract and retain moisture in the skin.",
+        "description_ar": "يساعد على جذب الرطوبة والاحتفاظ بها في البشرة."
+      },
+      {
+        "name": "Panthenol",
+        "function": "Skin conditioning",
+        "description": "Commonly used to condition and moisturize the skin.",
+        "description_ar": "يُستخدم عادةً لترطيب البشرة وتحسين ملمسها."
+      },
+      {
+        "name": "Ceramides",
+        "function": "Skin barrier support",
+        "description": "Help support the skin's natural protective barrier.",
+        "description_ar": "تساعد في دعم الحاجز الطبيعي الواقي للبشرة."
+      }
+    ],
+    "usage": "Follow the instructions on the actual product label.",
+    "usage_ar": "اتبعي تعليمات الاستخدام الموجودة على العبوة الفعلية.",
+    "storage": "Store according to the product label.",
+    "storage_ar": "يُحفظ وفقًا للتعليمات الموجودة على العبوة.",
+    "warnings": [
+      "For demonstration purposes only. This is not a verified commercial formulation.",
+      "Check the actual product label before use."
+    ],
+    "warnings_ar": [
+      "هذا نموذج توضيحي وليس تركيبة تجارية معتمدة.",
+      "راجعي بيانات العبوة الفعلية قبل الاستخدام."
+    ],
+    "manufacturing_date": "2026-09-01",
+    "expiry_date": "2028-09-01",
+    "batch_number": "DEMO001",
+    "recycling": "Check local recycling instructions for the packaging.",
+    "recycling_ar": "راجعي تعليمات إعادة التدوير المحلية الخاصة بنوع العبوة.",
+    "video": "https://www.youtube.com/results?search_query=glycerin+panthenol+ceramides+skincare+explained",
+    "video_title": "Glycerin, Panthenol & Ceramides explained",
+    "video_title_ar": "شرح الجلسرين والبانثينول والسيراميد",
+    "audio": "",
+    "assistant": {
+      "welcome": "Hi! I'm your Hydrating Cream product guide.",
+      "welcome_ar": "أهلًا! أنا مساعدك للتعرف على كريم الترطيب.",
+      "questions": [
+        {
+          "question": "What is this product?",
+          "question_ar": "ما هو المنتج ده؟",
+          "answer": "This is a sample moisturizer included in the PharmaSmart demonstration.",
+          "answer_ar": "ده نموذج لمنتج مرطب ضمن تجربة PharmaSmart."
+        },
+        {
+          "question": "What does Glycerin do?",
+          "question_ar": "ما وظيفة الجلسرين؟",
+          "answer": "Glycerin helps attract and retain moisture in the skin.",
+          "answer_ar": "الجلسرين بيساعد البشرة على جذب الرطوبة والاحتفاظ بيها."
+        },
+        {
+          "question": "What are Ceramides?",
+          "question_ar": "إيه هي السيراميدات؟",
+          "answer": "Ceramides are lipids that help support the skin's protective barrier.",
+          "answer_ar": "السيراميدات مواد دهنية بتساعد في دعم الحاجز الواقي للبشرة."
+        }
+      ]
+    }
+  },
+  {
+    "id": "P002",
+    "name": "Acne Cleanser",
+    "name_ar": "غسول البشرة المعرضة للحبوب",
+    "category": "Cleanser",
+    "category_ar": "غسول",
+    "description": "A sample cleanser used to demonstrate ingredient explanations and product information.",
+    "description_ar": "نموذج لغسول يوضح كيفية عرض المكونات ومعلومات المنتج بطريقة بسيطة.",
+    "image": "images/acne-cleanser.png",
+    "ingredients": [
+      {
+        "name": "Salicylic Acid",
+        "function": "Exfoliating ingredient",
+        "description": "A beta hydroxy acid commonly used in skincare exfoliating products.",
+        "description_ar": "حمض يُستخدم في بعض منتجات العناية بالبشرة للمساعدة في التقشير."
+      },
+      {
+        "name": "Glycerin",
+        "function": "Humectant",
+        "description": "Helps attract and retain moisture in the skin.",
+        "description_ar": "يساعد على جذب الرطوبة والاحتفاظ بها في البشرة."
+      },
+      {
+        "name": "Panthenol",
+        "function": "Skin conditioning",
+        "description": "Commonly used to condition and moisturize the skin.",
+        "description_ar": "يُستخدم عادةً لترطيب البشرة وتحسين ملمسها."
+      }
+    ],
+    "usage": "Follow the instructions on the actual product label.",
+    "usage_ar": "اتبعي تعليمات الاستخدام الموجودة على العبوة الفعلية.",
+    "storage": "Store according to the product label.",
+    "storage_ar": "يُحفظ وفقًا للتعليمات الموجودة على العبوة.",
+    "warnings": [
+      "For demonstration purposes only. This is not a verified commercial formulation.",
+      "Check the actual product label before use."
+    ],
+    "warnings_ar": [
+      "هذا نموذج توضيحي وليس تركيبة تجارية معتمدة.",
+      "راجعي بيانات العبوة الفعلية قبل الاستخدام."
+    ],
+    "manufacturing_date": "2026-09-01",
+    "expiry_date": "2028-09-01",
+    "batch_number": "DEMO002",
+    "recycling": "Check local recycling instructions for the packaging.",
+    "recycling_ar": "راجعي تعليمات إعادة التدوير المحلية الخاصة بنوع العبوة.",
+    "video": "https://www.youtube.com/results?search_query=salicylic+acid+cleanser+how+to+use+dermatologist",
+    "video_title": "Salicylic acid cleanser: how to use it",
+    "video_title_ar": "طريقة استخدام غسول حمض الساليسيليك",
+    "audio": "",
+    "assistant": {
+      "welcome": "Hi! I'm your Acne Cleanser product guide.",
+      "welcome_ar": "أهلًا! أنا مساعدك للتعرف على غسول البشرة.",
+      "questions": [
+        {
+          "question": "What is Salicylic Acid?",
+          "question_ar": "إيه هو حمض الساليسيليك؟",
+          "answer": "Salicylic Acid is a beta hydroxy acid used in some skincare products.",
+          "answer_ar": "حمض الساليسيليك هو نوع من أحماض البيتا هيدروكسي، وبيُستخدم في بعض منتجات العناية بالبشرة."
+        },
+        {
+          "question": "Why is Glycerin included?",
+          "question_ar": "ليه فيه جلسرين في الغسول؟",
+          "answer": "Glycerin helps attract and retain moisture in the skin.",
+          "answer_ar": "الجلسرين بيساعد على جذب الرطوبة والاحتفاظ بيها في البشرة."
+        },
+        {
+          "question": "How should I use it?",
+          "question_ar": "أستخدمه إزاي؟",
+          "answer": "Please follow the instructions on the actual product label.",
+          "answer_ar": "اتبعي تعليمات الاستخدام الموجودة على العبوة الفعلية."
+        }
+      ]
+    }
+  },
+  {
+    "id": "P003",
+    "name": "Retinol Serum",
+    "name_ar": "سيروم الريتينول",
+    "category": "Serum",
+    "category_ar": "سيروم",
+    "description": "A sample serum used to demonstrate how PharmaSmart presents ingredient information.",
+    "description_ar": "نموذج لسيروم يوضح طريقة PharmaSmart في شرح مكونات المنتجات.",
+    "image": "images/retinol-serum.png",
+    "ingredients": [
+      {
+        "name": "Retinol",
+        "function": "Vitamin A derivative",
+        "description": "A Vitamin A derivative used in some skincare formulations.",
+        "description_ar": "مشتق من فيتامين A يُستخدم في بعض تركيبات العناية بالبشرة."
+      },
+      {
+        "name": "Glycerin",
+        "function": "Humectant",
+        "description": "Helps attract and retain moisture in the skin.",
+        "description_ar": "يساعد على جذب الرطوبة والاحتفاظ بها في البشرة."
+      },
+      {
+        "name": "Panthenol",
+        "function": "Skin conditioning",
+        "description": "Commonly used to condition and moisturize the skin.",
+        "description_ar": "يُستخدم عادةً لترطيب البشرة وتحسين ملمسها."
+      }
+    ],
+    "usage": "Retinol products require product-specific instructions. Follow the actual product label.",
+    "usage_ar": "منتجات الريتينول تحتاج تعليمات استخدام خاصة بالتركيبة. اتبعي تعليمات العبوة الفعلية.",
+    "storage": "Store according to the product label.",
+    "storage_ar": "يُحفظ وفقًا للتعليمات الموجودة على العبوة.",
+    "warnings": [
+      "For demonstration purposes only. This is not a verified commercial formulation.",
+      "Retinol may not be suitable for everyone. Check the actual product label and seek professional advice when needed."
+    ],
+    "warnings_ar": [
+      "هذا نموذج توضيحي وليس تركيبة تجارية معتمدة.",
+      "الريتينول قد لا يكون مناسبًا للجميع. راجعي تعليمات المنتج واستشيري مختصًا عند الحاجة."
+    ],
+    "manufacturing_date": "2026-09-01",
+    "expiry_date": "2027-09-01",
+    "batch_number": "DEMO003",
+    "recycling": "Check local recycling instructions for the packaging.",
+    "recycling_ar": "راجعي تعليمات إعادة التدوير المحلية الخاصة بنوع العبوة.",
+    "video": "https://www.youtube.com/watch?v=tEB5qSTcHck",
+    "video_title": "How to use retinol like a dermatologist — Dr Davin Lim",
+    "video_title_ar": "طريقة استخدام الريتينول مع د. دافين ليم",
+    "audio": "",
+    "assistant": {
+      "welcome": "Hi! I'm your Retinol Serum product guide.",
+      "welcome_ar": "أهلًا! أنا مساعدك للتعرف على سيروم الريتينول.",
+      "questions": [
+        {
+          "question": "What is Retinol?",
+          "question_ar": "إيه هو الريتينول؟",
+          "answer": "Retinol is a Vitamin A derivative used in some skincare formulations.",
+          "answer_ar": "الريتينول مشتق من فيتامين A وبيُستخدم في بعض تركيبات العناية بالبشرة."
+        },
+        {
+          "question": "Is Retinol suitable for everyone?",
+          "question_ar": "هل الريتينول مناسب لكل الناس؟",
+          "answer": "Not necessarily. Suitability depends on the person and the specific formulation. Ask a qualified professional if unsure.",
+          "answer_ar": "مش بالضرورة. مناسبته بتختلف حسب الشخص والتركيبة، فالأفضل سؤال مختص لو مش متأكدة."
+        },
+        {
+          "question": "How should I use it?",
+          "question_ar": "أستخدمه إزاي؟",
+          "answer": "Follow the instructions on the actual product label. This demo does not provide a personal skincare routine.",
+          "answer_ar": "اتبعي تعليمات العبوة الفعلية. النموذج ده مش بيحدد روتين عناية شخصي."
+        }
+      ]
+    }
+  }
+]

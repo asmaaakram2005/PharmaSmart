@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="معلومات المنتج من PharmaSmart عبر التغليف الذكي." />
+    <title>معلومات المنتج | PharmaSmart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=DM+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="product-page">
+    <a class="skip-link" href="#product-content" data-i18n="skip">انتقل إلى المعلومات</a>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="PharmaSmart home"><img src="images/logo-icon.png" alt="" width="42" height="42" /><span>Pharma<span>Smart</span></span></a>
+        <div class="nav-actions">
+          <a class="header-link" href="index.html#products"><span aria-hidden="true">→</span><span data-i18n="demoProducts">منتجات النموذج</span></a>
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Switch to English">English</button>
+        </div>
+      </div>
+    </header>
+    <main id="product-content" class="product-content container" aria-live="polite">
+      <div class="loading"><span></span><span data-i18n="loading">جارِ تحميل معلومات المنتج...</span></div>
+    </main>
+    <footer class="site-footer"><div class="container"><a class="brand" href="index.html"><img src="images/logo-icon.png" alt="" width="30" height="30" /><span>Pharma<span>Smart</span></span></a><p data-i18n="footer">Understand What You Use.</p></div></footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

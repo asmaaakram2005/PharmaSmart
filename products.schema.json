@@ -1,0 +1,93 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PharmaSmart Products",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "name_ar",
+      "category",
+      "description",
+      "image",
+      "ingredients",
+      "assistant"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^P[0-9]{3}$"
+      },
+      "name": {
+        "type": "string"
+      },
+      "name_ar": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "category_ar": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "description_ar": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      },
+      "video": {
+        "type": "string",
+        "format": "uri"
+      },
+      "video_title": {
+        "type": "string"
+      },
+      "video_title_ar": {
+        "type": "string"
+      },
+      "audio": {
+        "type": "string"
+      },
+      "ingredients": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["name", "function", "description"],
+          "properties": {
+            "name": { "type": "string" },
+            "function": { "type": "string" },
+            "description": { "type": "string" },
+            "description_ar": { "type": "string" }
+          }
+        }
+      },
+      "assistant": {
+        "type": "object",
+        "required": ["welcome", "questions"],
+        "properties": {
+          "welcome": { "type": "string" },
+          "welcome_ar": { "type": "string" },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["question", "answer"],
+              "properties": {
+                "question": { "type": "string" },
+                "question_ar": { "type": "string" },
+                "answer": { "type": "string" },
+                "answer_ar": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
